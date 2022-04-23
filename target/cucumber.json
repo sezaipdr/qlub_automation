@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-23T11:58:25.034Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qlub.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Customer should be able to choose to see  restaurant\u0027s menu",
+        "description": "",
+        "id": "as-a-customer--when-ı-scan-the-qr-code--ı-should-be-able-to-choose-to-see-restaurant’s;customer-should-be-able-to-choose-to-see--restaurant-s-menu",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qlub.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 763700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User scans QR Code",
+            "match": {
+              "location": "com.qlub.step_definitions.User_Story1_StepDefinition.user_scans_QR_Code()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1112900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User can navigate to Diner\u0027s QA Page",
+            "match": {
+              "location": "com.qlub.step_definitions.User_Story1_StepDefinition.user_can_navigate_to_Diner_s_QA_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User sees \"View the Menu\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User clicks \"View the Menu\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User sees restaurant\u0027s menu",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User chooses menu",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@us1"
+          },
+          {
+            "name": "@US1_TC2"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer, when I scan the QR code, I should be able to choose to see restaurant’s",
+    "description": "  menu",
+    "id": "as-a-customer--when-ı-scan-the-qr-code--ı-should-be-able-to-choose-to-see-restaurant’s",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/User_Story1.feature",
+    "tags": [
+      {
+        "name": "@us1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
